@@ -1,0 +1,12 @@
+# Standards: 1.2
+---
+# @var browser_chrome:description: Enable installation of Google Chrome
+browser_chrome: True
+
+# @var browser_chrome_arch:description: Architecture for Google Chrome
+browser_chrome_arch: amd64
+
+# @var browser_chrome_deb:description: Download URL for the Google Chrome package to install
+browser_chrome_package: "https://dl.google.com/linux/direct/google-chrome-stable_current_{{ browser_chrome_arch }}.deb"
+
+...

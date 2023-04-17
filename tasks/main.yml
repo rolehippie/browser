@@ -1,0 +1,9 @@
+# Standards: 1.2
+---
+- name: Include chrome tasks
+  when: browser_chrome
+  include_tasks: chrome.yml
+  tags:
+    - browser
+
+...

@@ -1,0 +1,11 @@
+# Standards: 1.2
+---
+- name: Install from URL
+  apt:
+    deb: "{{ browser_chrome_package }}"
+    state: present
+  tags:
+    - browser
+    - chrome
+
+...
